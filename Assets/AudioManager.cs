@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] private AudioClip scoreSoundClip; 
 
-    void Awake()
+    void Awake()//awake function
     {
         if (Instance == null)
         {
